@@ -40,7 +40,7 @@ HAVING COUNT(fi.route) > 10000
 ORDER BY cnt DESC
 ;
 
-CREATE OR REPLACE VIEW reporting.year_to_year_comparision AS
+CREATE OR REPLACE VIEW reporting.month_to_month_comparision AS
 SELECT 
 	f.year,
 	f.month,
@@ -67,6 +67,7 @@ GROUP BY
 CREATE OR REPLACE VIEW reporting.day_by_day_reliability AS
 SELECT
 	to_date(LPAD(year::text, 4, '0') || LPAD(month::text, 2, '0') || LPAD(day_of_month::text, 2, '0'), 'YYYYMMDD') AS date,
+    year,
 	(COUNT(CASE WHEN dep_delay_new > 0 THEN 1 END)::float / COUNT(*)) * 100 AS reliability
 FROM
 	flight
@@ -74,3 +75,4 @@ GROUP BY
 	year, 
 	month, 
 	day_of_month
+;
