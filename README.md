@@ -1,28 +1,29 @@
 # Airlines Delays Analysis
 
-## Introduction
+<img src="../Airlines_Delays_Analysis/readme_img/hero_image.jpg" alt="files structure in 'data/raw' directory" width="800"/>
 
+## Introduction
 
 **Airlines Delays Analysis** is a full-stack data exploration and analysis project focused on flight delays in U.S. airports during 2019 and the first few months of 2023. It investigates various factors such as seasonality, weather conditions, and aircraft age. Beyond analysis, the project encompasses three main data-related fields:
 
 1. **Data Engineering**:
 
-   - Downloading data from API endpoints.
-   - Creating a database with a specially crafted schema and populating it with downloaded data.
-   - Developing dedicated layers (views) to separate data used for analysis, reporting and visualization.
+   - Downloading data from API endpoints
+   - Creating a database with a specially crafted schema and populating it with downloaded data
+   - Developing dedicated layers (views) to separate data used for analysis, reporting and visualization
 
 2. **Data Analysis**:
 
-   - Conducting a comprehensive exploration of flight delays.
+   - Conducting a comprehensive exploration of flight delays data
 
 3. **BI Reporting and Visualization**:
 
-   - Designing an analytical and reporting system to support future business decision-making.
-   - Implementing DASH visualization techniques.
+   - Designing an analytical and reporting system to support future business decision-making
+   - Implementing DASH visualization techniques
 
 
 
-**Tech Stack**:
+**Main Tech Stack**:
 
 - Python (data analysis and engineering)
 - PostgreSQL (database management)
@@ -42,20 +43,20 @@
 
 ## Table of Contents
 
-1. [N01 Data Engineering: Connecting to API endpoints and downloading raw data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N01_Data_Engineering_API.ipynb)
-2. [N02 Data Engineering: Initializing a PostgreSQL database and creating schemas for data exploration.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
-3. [N03 Data Engineering: Populating the database with data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
-4. [N04 Data Analysis: Initial data exploration.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N04_Data_Analysis_p1.ipynb)
-5. [N05 Data Analysis: Enriching the dataset with additional `aircraft` data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N05_Data_Analysis_p2.ipynb)
-6. [N06 Data Analysis: Further enrichment with `airport` and `weather` data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N06_Data_Analysis_p3.ipynb)
-7. [N07 BI Development: Creating new database schemas for reporting and visualization.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
-8. [N08 BI Development: Data reporting and visualization with DASH.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
+1. [N01 Data Engineering: Connecting to API endpoints and downloading raw data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N01_Data_Engineering_API.ipynb)
+2. [N02 Data Engineering: Initializing a PostgreSQL database and creating schemas for data exploration](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
+3. [N03 Data Engineering: Populating the database with data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
+4. [N04 Data Analysis: Initial data exploration](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N04_Data_Analysis_p1.ipynb)
+5. [N05 Data Analysis: Enriching the dataset with additional `aircraft` data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N05_Data_Analysis_p2.ipynb)
+6. [N06 Data Analysis: Further enrichment with `airport` and `weather` data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N06_Data_Analysis_p3.ipynb)
+7. [N07 BI Development: Creating new database schemas for reporting and visualization](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
+8. [N08 BI Development: Data reporting and visualization with DASH](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
 
 ---
 
 ## Installation
 
-To install **Airlines Delays Analysis**, follow these steps:
+To run this project locally **Airlines Delays Analysis**, follow these steps:
 
 1. Create a dedicated virtual environment (optional)
 2. Clone the repository:
@@ -70,24 +71,25 @@ To install **Airlines Delays Analysis**, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-5. Install [PostgreSQL](https://www.postgresql.org/)
-<br>
-There are many available options to install a PostgreSQL on your local machine, also bepending if you use Mac or PC. 
-If you don't have one already, I would suggest to find appropriate tutorial on Google or Youtube. You can also ask ChtGPT for a step-by-step instructions,
-stating on what type computer you are working on, what is your operating system (Windows, MacOS, Linux) etc.  
-<br> **Key information:**
-<br> - make sure your PostgreSQL version is 14 (postgresql@14)
-<br> - when setting up your PostgreSQL for the first time, use those credentials:
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - username: postgres_user
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - password: coderslab
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - port: 5432 (which is default)
-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - host: localhost (which is default)
-<br>
-<br>
-**Some uesefull links:**
-<br>Widows: [https://www.w3schools.com/postgresql/postgresql_install.php](https://www.w3schools.com/postgresql/postgresql_install.php)
-<br>Mac: [https://www.youtube.com/watch?v=Z-iM7hUdBSg](https://www.youtube.com/watch?v=Z-iM7hUdBSg)
-<br> Mac (via Homebrew):[https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/](https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/)
+5. run this script to change urls inside the notebooks !!!!   
+5. Install [PostgreSQL](https://www.postgresql.org/)  
+   There are many available options to install PostgreSQL on your local machine, depending on whether you use Mac or PC.  
+   If you don't have one already, I would suggest finding an appropriate tutorial on Google or YouTube. You can also ask ChatGPT for step-by-step instructions,  
+   stating what type of computer you are working on and what your operating system is (Windows, MacOS, Linux), etc.
+
+   **Key information:**  
+   - Make sure your PostgreSQL version is 14 (`postgresql@14`).  
+   - When setting up PostgreSQL for the first time, use these credentials:  
+     - **Username**: `postgres_user`  
+     - **Password**: `coderslab`  
+     - **Port**: `5432` (default)  
+     - **Host**: `localhost` (default)
+
+   **Some useful links:**  
+   - Windows: [https://www.w3schools.com/postgresql/postgresql_install.php](https://www.w3schools.com/postgresql/postgresql_install.php)  
+   - Mac: [https://www.youtube.com/watch?v=Z-iM7hUdBSg](https://www.youtube.com/watch?v=Z-iM7hUdBSg)  
+   - Mac (via Homebrew): [https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/](https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/)
+
 
 
 ### ! ! ! Important ! ! !
@@ -105,23 +107,13 @@ There are three ways to obtain the raw data:
 
 2. **Download pre-prepared data** (easy method):
 
-   - Use this [Google Drive link](#) to download the data, and place it in the `data/raw` directory.
+   - Use this [Google Drive link](https://drive.google.com/uc?export=download&id=1xrIhLSrLy0WvxOdU6XRZOrbHyDkMu352) to download the data, and place it in the `data/raw` directory.
 
 3. **Source data directly from Kaggle** (not recommended):
 
    - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
 
-   
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
-
----
-## Usage
-
-To use **Airlines Delays Analysis**:
-
-1. Open the project in your preferred code editor.
-2. Modify the source code as needed.
-3. Run the project to explore or visualize the data.
+<img src="../Airlines_Delays_Analysis/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
 
 ---
 
@@ -129,42 +121,41 @@ To use **Airlines Delays Analysis**:
 
 If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Implement your changes.
-4. Write tests to cover your changes.
-5. Run the tests to ensure they pass.
-6. Commit your changes.
-7. Push your changes to your forked repository.
-8. Submit a pull request.
+1. Fork the repository
+2. Create a new branch for your changes
+3. Implement your changes
+4. Write tests to cover your changes
+5. Run the tests to ensure they pass
+6. Commit your changes
+7. Push your changes to your forked repository
+8. Submit a pull request
 
 --- 
 
 ## Authors and Acknowledgments
 
-**Airlines Delays Analysis** was created by [**Your Name**](https://github.com/username).
+**Airlines Delays Analysis** was created by [**Piotr Quandt**](https://github.com/piotrquandt)
 
 ### Dataset:
 
-- Access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations).
+- Dataset used in this project is avaialble [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
 
 ### API Endpoints:
 
-- Special thanks to CodersLab for providing API access.
+- Special thanks to [CodersLab](https://github.com/CodersLab) for creating API endpoints access
 
-### Contributors:
+### Images:
 
-- [**Contributor Name**](https://github.com/contributor-name)
-- [**Another Contributor**](https://github.com/another-contributor)
+- Cover image of this document - [Marcelo Renda](https://www.pexels.com/@marcelo-renda-2643550/)
 
 --- 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 --- 
 
 ## Contact
 
-For questions or comments, contact [**Your Name**](mailto\:you@example.com).
+For questions or comments, contact [**Piotr Quandt**](https://github.com/piotrquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
 
