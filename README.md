@@ -1,131 +1,170 @@
-# **Example README File**
+# Airlines Delays Analysis
 
-## **Airlines Delays Analysis**
+## Introduction
 
 
-## **Introduction**
+**Airlines Delays Analysis** is a full-stack data exploration and analysis project focused on flight delays in U.S. airports during 2019 and the first few months of 2023. It investigates various factors such as seasonality, weather conditions, and aircraft age. Beyond analysis, the project encompasses three main data-related fields:
 
-Airlines Delays Analysis is a comprehensive analisys of the flights delays in the US airports, in year 2019 and 
-fitst few months of 2023. It looks into aspects of season, wheather or plane age. However appart of just analysis,
-the project streches along 3 main data-related fields:
 1. **Data Engineering**:
-- downloading data form tee API endpoints
-- creating database and b y suing spoecially crafter database-schema, populating it with downloaded data 
-- crating dedicated layers (views), separating reportaing data from data for visualtisation purposes
+
+   - Downloading data from API endpoints.
+   - Creating a database with a specially crafted schema and populating it with downloaded data.
+   - Developing dedicated layers (views) to separate data used for analysis, reporting and visualization.
+
 2. **Data Analysis**:
-- comprehensice throught flights delays analysis, including 
-3. **BI Reporting adn Visualisation**:
-- crating system analityczno-raportowy, mający wspomagać przyszłe decyzje biznesowe
-- introducing DASH visualtisation techniques
 
-For more details, please see particular notebooks.
+   - Conducting a comprehensive exploration of flight delays.
 
-## **Installation**
+3. **BI Reporting and Visualization**:
 
-To install Airlines Delays Analysis, follow these steps:
+   - Designing an analytical and reporting system to support future business decision-making.
+   - Implementing DASH visualization techniques.
 
-1. Crated dedivcated virtual enviroment (optional)
-2. Clone the repository: **`git clone https://github.com/username/project-title.git`**
-2. Navigate to the project directory: **`cd Airlines_Delays_Analysis`**
-3. Use requirements.txt file to install/update libraries
 
-**! ! ! IMPORTANT ! ! !**
 
-If you clone the project and wish run in on your local machine, you are free to do so. However please remember, that first 
-you will need to plase 'raw' data inside the `data/raw` directory (please see `N01_Data_Engineering_API.ipynb` for more details). 
-The defaul GitHub's availabe specve is 25mb and raw data files widely exceed this number. That's why you currently wont find 
-anythig inside `data/raw` directory after cloning the repository. 
+**Tech Stack**:
 
-There are 2 ways you can obtain the 'raw' data: 
-1. use API points from the `N01_Data_Engineering_API.ipynb` notebook (official way)
-- If you choose this method, you will need a dedicated token 
-to extract above mentioned data from the API endpoint. To get this token, please concat me directly at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
-- Additionaly plese be aware that downloed data, such as `aircraft`, `airport_list` and `airport_weather.csv` spreadsheets are 
-relatively small and togheter thake only less than 2 min to download, the `flight` data takes more then 1Gb and takes 
-approx. 4 hours to download.
+- Python (data analysis and engineering)
+- PostgreSQL (database management)
+- API integration for data retrieval
+- Pandas, NumPy (data processing)
+- Matplotlib, Seaborn (data visualization)
+- DASH (data reporting)
 
-2. donload the data from here (url to google drive) and put it all inside `data/raw` directry (easy way)
-[picture]
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![image](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![image](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
+![image](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
+![image](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
+![image](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 
-3. you can refer to the `source data` [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) (not recomended)
-- if you choose this option, it will be in your domain to find neccesary files, join them and rename them accordingly 
+---
 
-## **Usage**
+## Table of Contents
 
-To use Project Title, follow these steps:
+1. [N01 Data Engineering: Connecting to API endpoints and downloading raw data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N01_Data_Engineering_API.ipynb)
+2. [N02 Data Engineering: Initializing a PostgreSQL database and creating schemas for data exploration.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
+3. [N03 Data Engineering: Populating the database with data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
+4. [N04 Data Analysis: Initial data exploration.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N04_Data_Analysis_p1.ipynb)
+5. [N05 Data Analysis: Enriching the dataset with additional `aircraft` data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N05_Data_Analysis_p2.ipynb)
+6. [N06 Data Analysis: Further enrichment with `airport` and `weather` data.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N06_Data_Analysis_p3.ipynb)
+7. [N07 BI Development: Creating new database schemas for reporting and visualization.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
+8. [N08 BI Development: Data reporting and visualization with DASH.](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
 
-1. Open the project in your favorite code editor.
-2. Modify the source code to fit your needs.
-3. Use the project as desired.
+---
 
-## **Contributing**
+## Installation
 
-If you'd like to contribute to Project Title, here are some guidelines:
+To install **Airlines Delays Analysis**, follow these steps:
+
+1. Create a dedicated virtual environment (optional)
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Airlines_Delays_Analysis.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd Airlines_Delays_Analysis
+   ```
+4. Use the `requirements.txt` file to install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Install [PostgreSQL](https://www.postgresql.org/)
+<br>
+There are many available options to install a PostgreSQL on your local machine, also bepending if you use Mac or PC. 
+If you don't have one already, I would suggest to find appropriate tutorial on Google or Youtube. You can also ask ChtGPT for a step-by-step instructions,
+stating on what type computer you are working on, what is your operating system (Windows, MacOS, Linux) etc.  
+<br> **Key information:**
+<br> - make sure your PostgreSQL version is 14 (postgresql@14)
+<br> - when setting up your PostgreSQL for the first time, use those credentials:
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - username: postgres_user
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - password: coderslab
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - port: 5432 (which is default)
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - host: localhost (which is default)
+<br>
+<br>
+**Some uesefull links:**
+<br>Widows: [https://www.w3schools.com/postgresql/postgresql_install.php](https://www.w3schools.com/postgresql/postgresql_install.php)
+<br>Mac: [https://www.youtube.com/watch?v=Z-iM7hUdBSg](https://www.youtube.com/watch?v=Z-iM7hUdBSg)
+<br> Mac (via Homebrew):[https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/](https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/)
+
+
+### ! ! ! Important ! ! !
+
+If you clone the project and want to run it locally, please note that you will need raw data files 
+inside the `data/raw` directory. The default GitHub file size limit is 50 MB, but the raw data files exceed this limit. As such, the `data/raw` directory will be empty after cloning the repository.
+
+There are three ways to obtain the raw data:
+
+1. **Use API endpoints (preferred method)**:
+
+   - Refer to and run the `N01_Data_Engineering_API.ipynb` notebook - downloading the data will start automatically by using API endpoints.
+ You will however need a dedicated token to downoad this data. Contact me at [pbquandt@gmail.com](mailto\:pbquandt@gmail.com) to obtain the token.
+   - While small datasets like `aircraft`, `airport_list`, and `airport_weather.csv` take less than 2 minutes to download, the `flight` dataset is over 1 GB and takes approximately 4 hours to download.
+
+2. **Download pre-prepared data** (easy method):
+
+   - Use this [Google Drive link](#) to download the data, and place it in the `data/raw` directory.
+
+3. **Source data directly from Kaggle** (not recommended):
+
+   - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
+
+   
+![files in data/raw directory](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png)
+
+---
+## Usage
+
+To use **Airlines Delays Analysis**:
+
+1. Open the project in your preferred code editor.
+2. Modify the source code as needed.
+3. Run the project to explore or visualize the data.
+
+---
+
+## Contributing
+
+If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
-3. Make your changes.
+3. Implement your changes.
 4. Write tests to cover your changes.
 5. Run the tests to ensure they pass.
 6. Commit your changes.
 7. Push your changes to your forked repository.
 8. Submit a pull request.
 
-## **License**
+--- 
 
-Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
+## Authors and Acknowledgments
 
-## **Authors and Acknowledgment**
+**Airlines Delays Analysis** was created by [**Your Name**](https://github.com/username).
 
-Project Title was created by **[Your Name](https://github.com/username)**.
+### Dataset:
 
-Dataset:
-[here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
+- Access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations).
 
-Additional contributors include:
+### API Endpoints:
 
-- **[Contributor Name](https://github.com/contributor-name)**
-- **[Another Contributor](https://github.com/another-contributor)**
+- Special thanks to CodersLab for providing API access.
 
-Thank you to all the contributors for their hard work and dedication to the project.
+### Contributors:
 
-## **Code of Conduct**
+- [**Contributor Name**](https://github.com/contributor-name)
+- [**Another Contributor**](https://github.com/another-contributor)
 
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. See the **[CODE_OF_CONDUCT.md](https://www.blackbox.ai/share/CODE_OF_CONDUCT.md)** file for more information.
+--- 
 
-## **FAQ**
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Q:** What is Project Title?
+--- 
 
-**A:** Project Title is a project that does something useful.
+## Contact
 
-**Q:** How do I install Project Title?
+For questions or comments, contact [**Your Name**](mailto\:you@example.com).
 
-**A:** Follow the installation steps in the README file.
-
-**Q:** How do I use Project Title?
-
-**A:** Follow the usage steps in the README file.
-
-**Q:** How do I contribute to Project Title?
-
-**A:** Follow the contributing guidelines in the README file.
-
-**Q:** What license is Project Title released under?
-
-**A:** Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
-
-## **Changelog**
-
-- **0.1.0:** Initial release
-- **0.1.1:** Fixed a bug in the build process
-- **0.2.0:** Added a new feature
-- **0.2.1:** Fixed a bug in the new feature
-
-## **Contact**
-
-If you have any questions or comments about Project Title, please contact **[Your Name](you@example.com)**.
-
-## **Conclusion**
-
-That's it! This is a basic template for a proper README file for a general project. You can customize it to fit your needs, but make sure to include all the necessary information. A good README file can help users understand and use your project, and it can also help attract contributors.
