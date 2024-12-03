@@ -112,9 +112,7 @@ There are three ways to obtain the raw data:
    - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
 
    
-![files in data/raw directory](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png)
-
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="200"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
 
 ---
 ## Usage
