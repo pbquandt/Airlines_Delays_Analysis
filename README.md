@@ -147,7 +147,7 @@ If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
 ## Authors and Acknowledgments
 
-**Airlines Delays Analysis** was created by [**Piotr Quandt**](https://github.com/pbquandt)
+**Airlines Delays Analysis** was created by [**Piotr B. Quandt**](https://github.com/pbquandt)
 
 ### Dataset:
 
@@ -170,5 +170,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or comments, please contact [**Piotr Quandt**](https://github.com/pbquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
+For questions or comments, please contact [**Piotr B. Quandt**](https://github.com/pbquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
 
