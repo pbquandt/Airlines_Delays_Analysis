@@ -1,6 +1,6 @@
 # Airlines Delays Analysis 
 
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/hero_image.jpg" alt="hero image" width="800"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/hero_image.jpg" alt="hero image" width="800"/>
 
 ## Introduction
 
@@ -22,12 +22,12 @@
    - Implementing DASH visualization techniques
 
 
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_1.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_2.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_3.png" alt="notebook example screen shot" width="400"/>
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_1.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_1.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_2.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_3.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_1.png" alt="notebook example screen shot" width="400"/>
 
 
 
@@ -52,14 +52,14 @@
 
 ## Table of Contents
 
-1. [N01 Data Engineering: Connecting to API endpoints and downloading raw data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N01_Data_Engineering_API.ipynb)
-2. [N02 Data Engineering: Initializing a PostgreSQL database and creating schemas for data exploration](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
-3. [N03 Data Engineering: Populating the database with data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
-4. [N04 Data Analysis: Initial data exploration](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N04_Data_Analysis_p1.ipynb)
-5. [N05 Data Analysis: Enriching the dataset with additional `aircraft` data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N05_Data_Analysis_p2.ipynb)
-6. [N06 Data Analysis: Further enrichment with `airport` and `weather` data](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N06_Data_Analysis_p3.ipynb)
-7. [N07 BI Development: Creating new database schemas for reporting and visualization](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
-8. [N08 BI Development: Data reporting and visualization with DASH](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
+1. [N01 Data Engineering: Connecting to API endpoints and downloading raw data](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N01_Data_Engineering_API.ipynb)
+2. [N02 Data Engineering: Initializing a PostgreSQL database and creating schemas for data exploration](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N02_Data_Engineering_Initiating_Database.ipynb)
+3. [N03 Data Engineering: Populating the database with data](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N03_Data_Engineering_Populating_Database.ipynb)
+4. [N04 Data Analysis: Initial data exploration](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N04_Data_Analysis_p1.ipynb)
+5. [N05 Data Analysis: Enriching the dataset with additional `aircraft` data](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N05_Data_Analysis_p2.ipynb)
+6. [N06 Data Analysis: Further enrichment with `airport` and `weather` data](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N06_Data_Analysis_p3.ipynb)
+7. [N07 BI Development: Creating new database schemas for reporting and visualization](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
+8. [N08 BI Development: Data reporting and visualization with DASH](https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
 
 
 ## Installation
@@ -118,7 +118,7 @@ However, you will need a dedicated token to download the data. Please contact me
 
    - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
 
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
+<img src="https://github.com/pbquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
 
 
 
@@ -147,7 +147,7 @@ If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
 ## Authors and Acknowledgments
 
-**Airlines Delays Analysis** was created by [**Piotr Quandt**](https://github.com/piotrquandt)
+**Airlines Delays Analysis** was created by [**Piotr Quandt**](https://github.com/pbquandt)
 
 ### Dataset:
 
@@ -170,5 +170,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or comments, please contact [**Piotr Quandt**](https://github.com/piotrquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
+For questions or comments, please contact [**Piotr Quandt**](https://github.com/pbquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
 
