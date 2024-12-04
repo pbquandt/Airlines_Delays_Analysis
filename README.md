@@ -1,6 +1,6 @@
 # Airlines Delays Analysis 
 
-<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/hero_image.jpg" alt="files structure in 'data/raw' directory" width="800"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/hero_image.jpg" alt="hero image" width="800"/>
 
 ## Introduction
 
@@ -20,6 +20,16 @@
 
    - Designing an analytical and reporting system to support future business decision-making
    - Implementing DASH visualization techniques
+
+
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_1.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_2.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_3.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/note_exe_4.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_3.png" alt="notebook example screen shot" width="400"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/DASH_1.png" alt="notebook example screen shot" width="400"/>
+
+
 
    
 **Main Tech Stack**:
