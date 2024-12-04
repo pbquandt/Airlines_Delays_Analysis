@@ -1,10 +1,12 @@
-# Airlines Delays Analysis
+# Airlines Delays Analysis 
 
 <img src="../Airlines_Delays_Analysis/readme_img/hero_image.jpg" alt="files structure in 'data/raw' directory" width="800"/>
 
 ## Introduction
 
-**Airlines Delays Analysis** is a full-stack data exploration and analysis project focused on flight delays in U.S. airports during 2019 and the first few months of 2023. It investigates various factors such as seasonality, weather conditions, and aircraft age. Beyond analysis, the project encompasses three main data-related fields:
+**Airlines Delays Analysis** is a full-stack data exploration and analysis project focused on flight delays in U.S. airports during 2019 and the first few months of 2023. It investigates various factors such as seasonality, weather conditions, and aircraft age. The project encompasses three main data-related fields:
+
+
 
 1. **Data Engineering**:
 
@@ -56,7 +58,7 @@
 
 ## Installation
 
-To run this project locally **Airlines Delays Analysis**, follow these steps:
+To run **Airlines Delays Analysis** project locally, follow these steps:
 
 1. Create a dedicated virtual environment (optional)
 2. Clone the repository:
@@ -71,49 +73,54 @@ To run this project locally **Airlines Delays Analysis**, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-5. run this script to change urls inside the notebooks !!!!   
 5. Install [PostgreSQL](https://www.postgresql.org/)  
-   There are many available options to install PostgreSQL on your local machine, depending on whether you use Mac or PC.  
-   If you don't have one already, I would suggest finding an appropriate tutorial on Google or YouTube. You can also ask ChatGPT for step-by-step instructions,  
-   stating what type of computer you are working on and what your operating system is (Windows, MacOS, Linux), etc.
-
+   There are several options available for installing PostgreSQL on your local machine, depending on whether you're using a Mac or a PC.  
+   If you don't have PostgreSQL installed yet, I recommend searching for a suitable tutorial on Google or YouTube. You can also ask ChatGPT for step-by-step instructions,  
+   specifying the type of computer you're using and your operating system (Windows, macOS, Linux, etc.).
+    ####
    **Key information:**  
+
    - Make sure your PostgreSQL version is 14 (`postgresql@14`).  
    - When setting up PostgreSQL for the first time, use these credentials:  
      - **Username**: `postgres_user`  
      - **Password**: `coderslab`  
      - **Port**: `5432` (default)  
      - **Host**: `localhost` (default)
-
+    ####
    **Some useful links:**  
    - Windows: [https://www.w3schools.com/postgresql/postgresql_install.php](https://www.w3schools.com/postgresql/postgresql_install.php)  
    - Mac: [https://www.youtube.com/watch?v=Z-iM7hUdBSg](https://www.youtube.com/watch?v=Z-iM7hUdBSg)  
    - Mac (via Homebrew): [https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/](https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/)
 
 
-
 ### ! ! ! Important ! ! !
 
-If you clone the project and want to run it locally, please note that you will need raw data files 
-inside the `data/raw` directory. The default GitHub file size limit is 50 MB, but the raw data files exceed this limit. As such, the `data/raw` directory will be empty after cloning the repository.
+To run the project locally, ensure that the data/raw directory contains the required raw data files. Since these files exceed GitHub's size limits, the directory will be empty after cloning. 
+Obtain the raw data using one of these methods:
 
-There are three ways to obtain the raw data:
+1. **Use API endpoints**: (recommended)
 
-1. **Use API endpoints (preferred method)**:
-
-   - Refer to and run the `N01_Data_Engineering_API.ipynb` notebook - downloading the data will start automatically by using API endpoints.
- You will however need a dedicated token to downoad this data. Contact me at [pbquandt@gmail.com](mailto\:pbquandt@gmail.com) to obtain the token.
-   - While small datasets like `aircraft`, `airport_list`, and `airport_weather.csv` take less than 2 minutes to download, the `flight` dataset is over 1 GB and takes approximately 4 hours to download.
+   - Refer to and run the `N01_Data_Engineering_API.ipynb` notebook - downloading the data will start automatically through the API endpoints.
+However, you will need a dedicated token to download the data. Please contact me directly at [pbquandt@gmail.com](mailto:pbquandt@gmail.com) to obtain the token.
+   - While small datasets like `aircraft`, `airport_list`, and `airport_weather` take less than 2 minutes to download, the `flight` dataset, which is over 1 GB in size, takes approximately 4 hours to download.
 
 2. **Download pre-prepared data** (easy method):
 
-   - Use this [Google Drive link](https://drive.google.com/uc?export=download&id=1xrIhLSrLy0WvxOdU6XRZOrbHyDkMu352) to download the data, and place it in the `data/raw` directory.
+   - Use this [Google Drive link](https://drive.google.com/uc?export=download&id=1xrIhLSrLy0WvxOdU6XRZOrbHyDkMu352) to download the data, and place it inside the `data/raw` directory (see below screenshot).
 
 3. **Source data directly from Kaggle** (not recommended):
 
    - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
 
 <img src="../Airlines_Delays_Analysis/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
+
+---
+
+## Potential Issues 
+
+Since the project was done on a Mac, I haven't had the chance to test it on a PC.
+Although I took appropriate steps, such as dynamically determining the working folder path in the `project_dir.py` file and using `{os.path.sep}` for path separators, potential conflicts between Mac and PC environments can still occur.
+If you encounter any issues on your PC, please let me know or, ideally, follow the steps outlined in the 'Contributing' section below.
 
 ---
 
@@ -138,7 +145,7 @@ If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
 ### Dataset:
 
-- Dataset used in this project is avaialble [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
+- Dataset used in this project is available [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
 
 ### API Endpoints:
 
@@ -157,5 +164,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or comments, contact [**Piotr Quandt**](https://github.com/piotrquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
+For questions or comments, please contact [**Piotr Quandt**](https://github.com/piotrquandt) at [pbquandt@gmail.com](mailto:pbquandt@gmail.com)
 
