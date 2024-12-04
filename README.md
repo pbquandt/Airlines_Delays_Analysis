@@ -1,12 +1,10 @@
 # Airlines Delays Analysis 
 
-<img src="../Airlines_Delays_Analysis/readme_img/hero_image.jpg" alt="files structure in 'data/raw' directory" width="800"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/hero_image.jpg" alt="files structure in 'data/raw' directory" width="800"/>
 
 ## Introduction
 
 **Airlines Delays Analysis** is a full-stack data exploration and analysis project focused on flight delays in U.S. airports during 2019 and the first few months of 2023. It investigates various factors such as seasonality, weather conditions, and aircraft age. The project encompasses three main data-related fields:
-
-
 
 1. **Data Engineering**:
 
@@ -23,8 +21,7 @@
    - Designing an analytical and reporting system to support future business decision-making
    - Implementing DASH visualization techniques
 
-
-
+   
 **Main Tech Stack**:
 
 - Python (data analysis and engineering)
@@ -41,7 +38,7 @@
 ![image](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
 ![image](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
 
----
+
 
 ## Table of Contents
 
@@ -54,7 +51,6 @@
 7. [N07 BI Development: Creating new database schemas for reporting and visualization](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N07_BI_Development_Building_Reporting_Schema.ipynb)
 8. [N08 BI Development: Data reporting and visualization with DASH](https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/N08_BI_Development_Data_Reporting_And_Visualisation.ipynb)
 
----
 
 ## Installation
 
@@ -112,9 +108,9 @@ However, you will need a dedicated token to download the data. Please contact me
 
    - You can access the dataset [here](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations). However, you will need to locate, join, and rename the files manually.
 
-<img src="../Airlines_Delays_Analysis/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
+<img src="https://github.com/piotrquandt/Airlines_Delays_Analysis/blob/master/readme_img/raw_dir.png" alt="files structure in 'data/raw' directory" width="300"/>
 
----
+
 
 ## Potential Issues 
 
@@ -122,7 +118,7 @@ Since the project was done on a Mac, I haven't had the chance to test it on a PC
 Although I took appropriate steps, such as dynamically determining the working folder path in the `project_dir.py` file and using `{os.path.sep}` for path separators, potential conflicts between Mac and PC environments can still occur.
 If you encounter any issues on your PC, please let me know or, ideally, follow the steps outlined in the 'Contributing' section below.
 
----
+
 
 ## Contributing
 
@@ -137,7 +133,7 @@ If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 7. Push your changes to your forked repository
 8. Submit a pull request
 
---- 
+
 
 ## Authors and Acknowledgments
 
@@ -155,12 +151,12 @@ If you'd like to contribute to **Airlines Delays Analysis**, follow these steps:
 
 - Cover image of this document - [Marcelo Renda](https://www.pexels.com/@marcelo-renda-2643550/)
 
---- 
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
---- 
+
 
 ## Contact
 
