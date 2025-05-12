@@ -87,9 +87,9 @@ To run **Airlines Delays Analysis** project locally, follow these steps:
    **Key information:**  
 
    - Make sure your PostgreSQL version is 14 (`postgresql@14`).  
-   - When setting up PostgreSQL for the first time, use these credentials:  
-     - **Username**: `postgres_user`  
-     - **Password**: `coderslab`  
+   - When setting up PostgreSQL for the first time, remember to replace credentials in attached `db_auth.py` file, with our local Postgres BD credentials:  
+     - **Username**: `USER`  
+     - **Password**: `PASSWORD`  
      - **Port**: `5432` (default)  
      - **Host**: `localhost` (default)
     ####
