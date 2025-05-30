@@ -69,7 +69,7 @@ To run **Airlines Delays Analysis** project locally, follow these steps:
 1. Create a dedicated virtual environment (optional)
 2. Clone the repository:
    ```bash
-   git clone https://github.com/username/Airlines_Delays_Analysis.git
+   git clone https://github.com/pbquandt/Airlines_Delays_Analysis.git
    ```
 3. Navigate to the project directory:
    ```bash
